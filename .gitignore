@@ -1,0 +1,12 @@
+# Node modules
+/node_modules/
+
+# Distribution folder
+/dist/
+
+# Environment files
+/src/environments/
+
+# IDE-specific files
+.idea/
+.vscode/
