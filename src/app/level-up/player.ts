@@ -29,7 +29,7 @@ export class Player {
   }
 
   resetExperience(){
-    this.experience = 0;
+      this.experience -= 100;
   }
 
   updateExperience(){
@@ -39,4 +39,6 @@ export class Player {
   updateLevel(){
     this.level += 1
   }
+
+
 }

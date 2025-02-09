@@ -1,3 +1,3 @@
 # SpecTacular
-
-It's gonna be Spec Tacular!
+ng serve
+npx karma start
