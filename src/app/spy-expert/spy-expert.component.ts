@@ -10,6 +10,7 @@ import { Advice } from './core/models/advice';
   imports: [AdviceComponent],
   template: `<h1>{{title}}</h1><app-advice [advice]="advice"></app-advice> <a href="/path">Follow me!</a><nav>`
 })
+
 export class SpyExpertComponent implements OnInit, OnDestroy {
 
   private adviceService = inject(AdvicesService);
